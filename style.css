@@ -15,11 +15,13 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-color: var(--Off-Black);
+    /* background-color: var(--Off-Black); */
+    background-image: url(./assets/images/674227517-64d879dee85cedffbfc764c74d546bd078166e36a3f456abaa8423085a5a2c23-d_640x360.jpg);
+    object-fit: cover;
 }
 .container{
-    width: 100%;
-    background-color: var(--Dark-Grey);
+    /* width: 100%;
+    background-color: var(--Dark-Grey); */
     max-width: 300px;
     margin: 200px auto;
     border-radius: 10px;
@@ -27,6 +29,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
 }
 .info{
     display: flex;
@@ -60,11 +65,14 @@ p{
 button{
     margin-top: 1rem;
     padding: 8px 0 8px 0;
-    background-color: var(--Grey);
+    background-color: var(--Off-Black);
     box-shadow: none;
     border-radius: 5px;
     outline: none;
     border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
 }
 button a{
     color: var(--White);
